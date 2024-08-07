@@ -4,7 +4,7 @@
 
 int main(){
 
-    //CÁLCULO E INPUT
+    //INPUT
     int pontArt, pontPed, pontTul, pontWil;
     double numArt, numPed, numTul, numWil;
     char nomeMonitor;    
