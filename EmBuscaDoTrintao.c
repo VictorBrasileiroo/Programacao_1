@@ -19,8 +19,6 @@ int main(){
     double diferencaPed = fabs(mediaMonitores - numPed);
     double diferencaTul = fabs(mediaMonitores - numTul);
     double diferencaWil = fabs(mediaMonitores - numWil);
-    // printf("%lf %lf %lf %lf", diferencaArt, diferencaPed, diferencaTul, diferencaWil);
-    //SE POSSUIREM A MESMA DIFERENACA - Não foi possível determinar um vencedor :/ - Próxima rodada.
     //==============FIM DOS CÁLCULOS
 
     double pontuacaorodadaA, pontuacaorodadaP, pontuacaorodadaT, pontuacaorodadaW;
@@ -29,7 +27,7 @@ int main(){
     if((numArt < 0 || numArt > 100) || (numPed < 0 || numPed > 100) || (numTul < 0 || numTul > 100) || (numWil < 0 || numWil > 100)){
         printf("Números inválidos!\n");
         printf("Próxima rodada.");
-    //INICIO VERDADEIRO DA JOGADA ============================================
+    //INICIO DA JOGADA ============================================
     }else{
         //ARTHUR============================  
         if(diferencaArt<diferencaPed && diferencaArt<diferencaTul && diferencaArt<diferencaWil){
@@ -116,7 +114,8 @@ int main(){
                 printf("Pontuação: +10\n"); //===================================resolver isso dq
             }
 
-        //VERIFICAÇÃO SE A DIFERENCA MENOR FOR IGUAL
+        //VERIFICAÇÃO SE A DIFERENCA FOR IGUAL
+                //SE POSSUIREM A MESMA DIFERENACA - Não foi possível determinar um vencedor :/ - Próxima rodada.
         }else{
             printf("Não foi possível determinar um vencedor :/\n");
             printf("Próxima rodada.");
