@@ -3,7 +3,7 @@
 
 ##### Os códigos estão na linguagem C - escolhida de forma estratégica pela direção do Instituto de Computação para melhor aprendizado e desenvolvimento dos alunos de computação da Universidade Federal de Alagoas.
 
-## Meus contatos:
+### Meus contatos:
 | Nome | Email | Curso |
 |----------|----------|----------|
 | Victor Brasileiro  | valb1@ic.ufal.br   | Ciência da Computação   |
