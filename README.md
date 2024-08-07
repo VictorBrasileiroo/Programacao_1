@@ -7,3 +7,4 @@
 | Nome | Email | Curso |
 |----------|----------|----------|
 | Victor Brasileiro  | valb1@ic.ufal.br   | Ciência da Computação   |
+|| dev.victorbrasileiroo@gmail.com   ||
