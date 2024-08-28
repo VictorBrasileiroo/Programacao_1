@@ -52,3 +52,17 @@ int main() {
     scan(); 
     return 0;
 }
+
+
+/*LEITURA DE ENTRADAS SEM DETERMINA A QUANTIDADE
+// Função recursiva para ler valores até encontrar EOF
+
+void lerEntradasRecursivas() {
+    int valor;
+    
+    if (scanf("%d", &valor) != EOF) {
+        lerEntradasRecursivas();            // Chama recursivamente para ler o próximo valor
+    }
+    // Quando o EOF é encontrado, a função retorna naturalmente, encerrando a recursão
+}
+*/
