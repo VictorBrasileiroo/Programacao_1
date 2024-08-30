@@ -10,7 +10,7 @@ void function(int numero, int valor, int auxiliar, int contador){
         printf("Numbers: %d", contador);
         return;
     }
-    int resultado = cirurgiaoDeNumeros(auxiliar); //989
+    int resultado = cirurgiaoDeNumeros(auxiliar); 
     if(resultado == valor){
         printf("%d\n", auxiliar);
         contador++;
