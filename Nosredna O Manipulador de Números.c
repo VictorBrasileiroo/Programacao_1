@@ -37,7 +37,6 @@ int function(int n, int qntRodadas){
     if(resultadoN1 == 1 && resultadoN2 == 1){
         n += valores;
     }else{
-        //somar os numeros e depois somar esses dois numeros
         int somaN1N2 = somarDigitos(n) * somarDigitos(valores);
         n = somaN1N2;
     }
